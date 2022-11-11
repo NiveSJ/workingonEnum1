@@ -1,5 +1,6 @@
 package se.lexicon;
 
+
 public enum WeekDay {
 
     MONDAY(8),
