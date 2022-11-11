@@ -3,9 +3,7 @@ package se.lexicon;
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
-/**
- * Hello world!
- */
+
 public class App {
 
 
@@ -13,7 +11,7 @@ public class App {
 
         System.out.println("Which dice You want to roll\n if Dice6(press1) D10(Press2) D20 (Press 3) D100(Press4) Press 0 to exit ");
         Scanner scan = new Scanner(System.in);
-        while (true){
+
         switch (scan.nextInt()) {
             case 1:
                 Dice dice = Dice.D6;
@@ -48,6 +46,6 @@ public class App {
         }
 
 
-        }
+
     }
 }
